@@ -1,0 +1,101 @@
+
+
+.Word {
+    background-color: whitesmoke;
+}
+
+.container {
+    border: 25px;
+    border-color: lightblue;
+    border-style: solid;
+    width: auto;
+}
+
+.directionBtn_01 {
+    background-color: rgb(255, 255, 110);
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.innerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+}
+
+.Btn {
+    height: fit-content;
+    width: auto;
+    margin: 15px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 15%;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.wordDisplay {
+    margin: 50px;
+    height: 200px;
+    width: auto;
+    border: solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: calc(3vw + 4vh);
+    font-weight: 700;
+    letter-spacing: 2rem;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.labelForm {
+    text-align: center;
+    align-items: baseline;
+}
+
+.typeWord {
+    margin: 50px;
+    height: 150px;
+    width: auto;
+    border: solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(3vw + 4vh);
+    font-weight: 700;
+    letter-spacing: 2rem;
+    box-shadow: 10px 5px 5px grey;
+}
+
+input {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+select:focus {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: none;
+}
+
+.wordBox {
+    outline: none;
+}
+
+.space {
+    width: 15px;
+}
+
+.checkBtn {
+    margin-left: 15px;
+    background-color: rgb(255, 255, 110);
+    cursor: pointer;
+    border-radius: 5%;
+}
