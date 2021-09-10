@@ -35,6 +35,7 @@
     box-shadow: 10px 5px 5px grey;
 }
 
+
 .wordDisplay {
     margin: 50px;
     height: 200px;
@@ -82,7 +83,7 @@ select:focus {
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    outline: none;
+    outline: lightblue;
 }
 
 .wordBox {
@@ -98,4 +99,8 @@ select:focus {
     background-color: rgb(255, 255, 110);
     cursor: pointer;
     border-radius: 5%;
+}
+
+canvas {
+    background: transparent;
 }
