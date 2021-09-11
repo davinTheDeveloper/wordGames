@@ -169,6 +169,11 @@ function Random() {
     function handleSpell() {
         setDisableSpell(false);
     }
+    
+    function checkSpell() {
+        let spelling = document.getElementById('userInput').innerHTML.toString();
+        
+    }
 
     return (
         <div className="Word">
@@ -177,7 +182,7 @@ function Random() {
                 <h3>{direction}</h3>
                 <div className="innerPage">
                     <button className="Btn" type="button" onClick={handleClick} disabled={disable}>1. Words</button>
-                    <button className="Btn" type="button" disabled={disableTwo} onClick={Listen}>2. Listen</button>
+                    <button className="Btn" type="button" onClick={Listen} disabled={disableTwo}>2. Listen</button>
                     <button className="Btn" type="button" onClick={handleSpell} disabled={disableThree}>3. Spell</button>
                 </div>
                 <div className="wordDisplay">
@@ -193,7 +198,7 @@ function Random() {
                         <div className="typeWord">
                             <input className="wordBox" id="userInput" type="text" disabled={disableSpell}/>
                             <div className="space"></div>
-                            <button className="checkBtn" type="submit" >Check!</button>
+                            <button className="checkBtn" type="submit" onClick={checkSpell} >Check!</button>
                         </div>
                     </form>
                 </div>
